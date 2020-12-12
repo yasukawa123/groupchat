@@ -1,4 +1,4 @@
-# laravel skelton
+# laravel chat skelton
 
 ## 概要
 
