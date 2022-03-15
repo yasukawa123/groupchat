@@ -24,6 +24,7 @@ services:
     depends_on:
       - php
   mysql-primary:
+    platform: linux/x86_64 # M1チップ対応のため追記
     image: mysql:5.7
     container_name: mysql-primary
     ports:
